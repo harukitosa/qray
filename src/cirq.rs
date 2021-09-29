@@ -67,7 +67,6 @@ impl Circuit {
 
     pub fn measure(&self) {
 	    let i: f64 = rand::thread_rng().gen(); 
-	    println!("rnd:{}", &i);   
 	    let mut sum: f64 = 0.0;
 	    let mut idx = 0;
 	    for item in self.qubits.iter() {
